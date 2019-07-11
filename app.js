@@ -18,12 +18,12 @@ var app = express();
 var connection = mysql.createConnection({
 //   host     : 'localhost',
 //   user     : 'root',
-//   password : '6269502',
+//   password : 'mypassword',
 //   database : 'EDISS2',
 //   multipleStatements: true
-  host     : 'ediss.cvzqy7pe9fcp.us-east-1.rds.amazonaws.com',
+  host     : 'ediss.myhost.us-east-1.rds.amazonaws.com',
   user     : 'zhexinc',
-  password : 'c6269502',
+  password : 'mypassword',
   database : 'EDISS3',
   port     : '3306',
   multipleStatements: true
