@@ -31,7 +31,7 @@ var connection = mysql.createConnection({
   // multipleStatements: 'true'
   host     : 'ediss.cvzqy7pe9fcp.us-east-1.rds.amazonaws.com',
   user     : 'zhexinc',
-  password : 'c6269502',
+  password : 'mypassword',
   database : 'EDISS3',
   port     : '3306',
   multipleStatements: 'true'
